@@ -11,9 +11,9 @@ def main():
     search_term = sys.argv[1]
     page_var = int(sys.argv[2])
     url = f"{base_url}{search_term}&page={page_var}"
-    cookie = ""
-    with open("cookie.txt", "r") as f:
-        cookie = f.read()
+    # cookie = ""
+    # with open("cookie.txt", "r") as f:
+    #    cookie = f.read()
     headers = {
         "Cookie": "",
         "Accept-Language": "en-US,en;q=0.9",
@@ -21,6 +21,7 @@ def main():
         "Sec-Fetch-Site": "same-origin",
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
     }
+
     a = requests.get(url, headers=headers)
     my_dict = json.loads(a.text)
     hits_0 = my_dict["hits"]

@@ -1,5 +1,7 @@
 # epstein-scraper
 
+### video demo located at: [https://youtube.com/live/R9muXbXJ14M](https://youtube.com/live/R9muXbXJ14M)
+
 This project is intended to provide a simple means of accessing the justice department's release of the so-called "Epstein Files", which is mostly just a large data dump of PDF files.
 
 [https://www.justice.gov/epstein/](https://www.justice.gov/epstein/)
@@ -12,7 +14,7 @@ A quick reverse-engineer of the "protections" (lol) in place resulted in me writ
 
 One of the "catches" to this process is you will need to bypass the "age restriction" at least once in order to obtain a valid cookie for this script, but it is very easy to do and I was basically done within 5 minutes...
 
-Copy your cookie into `cookie.txt` before continuing. 
+Copy your cookie into the `cookie` variable before continuing. 
 
 -----
 
@@ -66,7 +68,7 @@ Notice anything interesting?
 
 # usage
 
-As I said above, copy your cookie into `cookie.txt` before continuing.
+As I said above, copy your cookie into the `cookie` variable before continuing.
 
 ```
 # Only command-line nerds will understand what to do:
