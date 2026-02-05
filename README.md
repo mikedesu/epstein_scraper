@@ -12,6 +12,8 @@ A quick reverse-engineer of the "protections" (lol) in place resulted in me writ
 
 One of the "catches" to this process is you will need to bypass the "age restriction" at least once in order to obtain a valid cookie for this script, but it is very easy to do and I was basically done within 5 minutes...
 
+Copy your cookie into `cookie.txt` before continuing. 
+
 -----
 
 Some interesting notes about the infrastructure of justice.gov before I continue:
@@ -64,11 +66,18 @@ Notice anything interesting?
 
 # usage
 
+As I said above, copy your cookie into `cookie.txt` before continuing.
+
 ```
 # Only command-line nerds will understand what to do:
 python3 scraper.py <search_term> <page_number>
+```
 
-# example
+----------
+
+# example usage of the first version 2-4-2026:
+
+```
 python3 scraper.py 'linux' 0
 
 https://www.justice.gov/epstein/files/DataSet%209/EFTA01079104.pdf
