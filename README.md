@@ -4,7 +4,7 @@ This project is intended to provide a simple means of accessing the justice depa
 
 [https://www.justice.gov/epstein/](https://www.justice.gov/epstein/)
 
-The web portal forces the user to jump through several hoops in order to perform basic search.
+The web portal forces the user to jump through several hoops in order to perform basic search. Lame but not unexpected. It should be easier to do this kind of shit.
 
 Download functionality is not very easy from this perspective and neither is searching.
 
@@ -171,4 +171,16 @@ https://www.justice.gov/epstein/files/DataSet%2011/EFTA02412623.pdf
 https://www.justice.gov/epstein/files/DataSet%209/EFTA00703607.pdf
 ```
 
+----------
 
+# license
+
+a dude on irc who was kind of a dick but at least cool enough to educate me on the existence of the agpl, which is kind of based. if you fork this script and modify it and it fires off network requests (as it currently does) then you have to provide source or be in violation of the license. get fucked. information wants to be free. hack the planet!
+
+----------
+
+# contact
+
+- [https://x.com/evildojo666](https://x.com/evildojo666)
+- [https://www.youtube.com/@evildojo666](https://www.youtube.com/@evildojo666)
+- [https://www.evildojo.com](https://www.evildojo.com)
